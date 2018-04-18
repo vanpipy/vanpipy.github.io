@@ -1,1 +1,9 @@
+title: Leap Day For Youself
+description: Leap Day is for GitHub Pages by vanpipy.
+show_downloads: false
+google_analytics:
 theme: jekyll-theme-leap-day
+github:
+    is_project_page: true
+    owner_url: https://github.com/vanpipy
+    owner_name: vanpipy
