@@ -2,7 +2,6 @@
 layout: default
 ---
 
-# Index
+# About this engineer
 
-* [Arthmetc-process](./book/Arthmetc-process.html)
 * [It's me](./about/readme.md)

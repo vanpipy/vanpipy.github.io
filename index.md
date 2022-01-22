@@ -2,8 +2,9 @@
 layout: home
 ---
 
-# Home
+# Categories
 
-* * *
+---
 
-It's only a home page, and any more to look for [Index](./SUMMARY.html).
+* [Articles](./articles/index.html)
+* [Summary](./SUMMARY)
