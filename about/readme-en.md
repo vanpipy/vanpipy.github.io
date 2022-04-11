@@ -5,7 +5,7 @@ layout: home
 # Hello there
 * Leroy Fan/1988
 * Sichuan University Jinjiang College/EE - 2008-2012
-* Experience: 6 year
+* Experience: 8 year
 * Desired Position: Senior Software Engineer
 * Desired Location: ChengDu China
 
