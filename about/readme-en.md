@@ -34,38 +34,45 @@ layout: home
 
 ### KE Holdings Inc - The client application of the estate riskmanagement
 * Techs: React
-* Figure out the business logic out, design and implement a reasonable model to decrease the maintain cost and increase 100% development efficiency.
-* Design and implement an web client architecture, decrease the production bugs to 0, and test bugs to 10% only.
+* There is nothing about the evaluation parameters and logic model in the project, design and implement the web application solution to fill it
+  - Design the initial code model and optimize it with the communicating and using
+  - Reseach the business logic, and create the logic model to match it well, then decrease the difficulty degree of the maintain, double time the development efficiency
+  - Decrease the bug rate to 10%
 
 ### KE Holdings Inc - @ocean/cli
 * Techs: Node，Typescript, Webpack
-* Design and implement the standard bundle tool and dev scripts to decrease 80% time cost.
+* There is nothing about the builder or bundler
+  - Design and implement the bundler, and output the standard development scripts to decrease the 80% timecost when developing
 
 ---
 
 ### ACTIVE Network - Marathon races management system
 * Techs: React, Redux, Mobx, Backbone, Sass
-* Design and implement efficient UTs and features to complete the event management system.
+* Design and implement
+  - Create the efficient UTs and features to perfect the management system
 
 ---
 
 ### ShenMa Taxi - Taxi hailing for company system
-* Techs: Angularjs, Less, Gulp, Requirejs.
-* Lead a team includes 7 devs to migrate the `Jquery` to `Angularjs` for multiple projects in three weeks, and support the online activities reach to 200% users quantity.
-* Design and implement dev scripts, decrease 50% time cost of the development.
+* Techs: Angularjs, Less, Gulp, Requirejs
+* The project and team from zero to one
+  - Decompose the task and create the development and delivery mechanism
+  - Lead a team includes 7 devs to migrate the `Jquery` to `Angularjs` for multiple projects in three weeks, and support the online activities reach to 200% users quantity
+  - Design and implement dev scripts
 
 ---
 
 ### YiXing Lab - Financial data analysis for the company system
 * Techs: Java, Mysql, Angularjs, Angular, D3, Gulp. 
-* Create the customized chart and interaction, make the chart from 0 to 1.
-* Implement features and UTs reach the 90% code coverage.
+* Create custmized charts base on the D3.js
+  - Create the customized chart and interaction, make the chart from 0 to 1.
+  - Implement features and UTs reach the 90% code coverage.
 
 ---
 
 ### Dili - Dili Online fresh supermarket
 * Techs: Jquery, Jquery-Mobile, Requirejs, Bash.
-* Deliver and support on time.
+* Implement the UI design and support the application delivery
 
 # Thanks
 Thank your time to reach here and hope to have a chance to be your partner. Good Luck.
