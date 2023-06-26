@@ -18,6 +18,7 @@ layout: home
 * 掌握 ES5, ES6, Typescript, Node, Python
 * 掌握 React
 * 掌握 Design Patterns
+* 掌握 HTTP/HTTPS
 * 掌握 XML, HTML, CSS
 * 掌握 Git
 * 了解 Cross-platform Devs, like Flutter, Taro etc.
@@ -36,7 +37,7 @@ layout: home
 ### 新交投 - 业财融合平台
 * 项目背景：为数字化转型企业提供软件工具支持, 囊括在线办公, 票据管理, 费用报销, 合同管理等功能的融合线上平台
 * 项目方案：视图层整合跨模块能力, 对外提供统一的入口和协作方式
-* 项目细节：
+* 项目技术：
   - 领域拆分，业务流拆分，任务拆分，项目复杂度评估和管控
 
 ### 贝壳找房 - 房产风控客户端应用
