@@ -1,0 +1,102 @@
+- name: README
+  path: ./notes/README.md
+
+- name: StandardDescription
+  path: ./articles/StandardDescription.md
+
+- name: index
+  path: ./articles/index.md
+
+- name: README
+  path: ./notes/ClojureJavaScript/README.md
+
+- name: README
+  path: ./notes/EngineerMethod/README.md
+
+- name: AHisotryStroyAboutSelectSimulation
+  path: ./notes/HTMLandCSSandJS/AHisotryStroyAboutSelectSimulation.md
+
+- name: A_tale_of_two_viewports_--_part_one
+  path: ./notes/HTMLandCSSandJS/A_tale_of_two_viewports_--_part_one.md
+
+- name: A_tale_of_two_viewports_--_part_two
+  path: ./notes/HTMLandCSSandJS/A_tale_of_two_viewports_--_part_two.md
+
+- name: A_true_story_of_viewports
+  path: ./notes/HTMLandCSSandJS/A_true_story_of_viewports.md
+
+- name: CSS_Positioning_Story
+  path: ./notes/HTMLandCSSandJS/CSS_Positioning_Story.md
+
+- name: HistoryOfHTML
+  path: ./notes/HTMLandCSSandJS/HistoryOfHTML.md
+
+- name: Readme
+  path: ./notes/HTMLandCSSandJS/Readme.md
+
+- name: ReflowAndRepaint
+  path: ./notes/HTMLandCSSandJS/ReflowAndRepaint.md
+
+- name: TheElementsOfHTMLWHOInvisiable
+  path: ./notes/HTMLandCSSandJS/TheElementsOfHTMLWHOInvisiable.md
+
+- name: TheStoryOfTabIndex
+  path: ./notes/HTMLandCSSandJS/TheStoryOfTabIndex.md
+
+- name: README
+  path: ./notes/NodeJSDebugger/README.md
+
+- name: README
+  path: ./notes/OpenAPISpecification/README.md
+
+- name: ControlledAndUncontrolledComponent
+  path: ./notes/ReactArticle/ControlledAndUncontrolledComponent.md
+
+- name: ControlledFormControls
+  path: ./notes/ReactArticle/ControlledFormControls.md
+
+- name: readme
+  path: ./notes/Route/readme.md
+
+- name: README
+  path: ./notes/SoundJS/README.md
+
+- name: README
+  path: ./notes/cs103/README.md
+
+- name: ClassConstructorAndProperty
+  path: ./notes/ecmascript/ClassConstructorAndProperty.md
+
+- name: README
+  path: ./notes/ecmascript/README.md
+
+- name: README
+  path: ./notes/eventloop/README.md
+
+- name: HTTPS
+  path: ./notes/http/HTTPS.md
+
+- name: README
+  path: ./notes/http/README.md
+
+- name: README
+  path: ./notes/java/README.md
+
+- name: readme
+  path: ./notes/koa/readme.md
+
+- name: readme
+  path: ./notes/postcss/readme.md
+
+- name: researchLegacyRepo
+  path: ./notes/researchReports/researchLegacyRepo.md
+
+- name: stardartForFE
+  path: ./notes/solutions/stardartForFE.md
+
+- name: README
+  path: ./notes/webpack/README.md
+
+- name: README
+  path: ./notes/ReactArticle/reactAndCanvas/README.md
+
