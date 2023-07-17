@@ -1,5 +1,2 @@
 # Who am I?
-vanpipy
-
-# References
-...
+[vanpipy](https://github.com/vanpipy) - a software engineer and web developer
