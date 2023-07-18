@@ -14,7 +14,7 @@ const collectPaths = async (paths = [], result = []) => {
             .filter((each) => /\.md$/.test(each.path))
             .map((each) => ({
                 name: each.name.replace('.md', ''),
-                path: each.path.replace(ROOT_PATH, '.')
+                path: each.path.replace(ROOT_PATH, '').replace('.md', '')
             }));
     }
 

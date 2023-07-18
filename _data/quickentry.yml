@@ -1,102 +1,102 @@
 - name: README
-  path: ./notes/README.md
+  path: /notes/README
 
 - name: StandardDescription
-  path: ./articles/StandardDescription.md
+  path: /articles/StandardDescription
 
 - name: index
-  path: ./articles/index.md
+  path: /articles/index
 
 - name: README
-  path: ./notes/ClojureJavaScript/README.md
+  path: /notes/ClojureJavaScript/README
 
 - name: README
-  path: ./notes/EngineerMethod/README.md
+  path: /notes/EngineerMethod/README
 
 - name: AHisotryStroyAboutSelectSimulation
-  path: ./notes/HTMLandCSSandJS/AHisotryStroyAboutSelectSimulation.md
+  path: /notes/HTMLandCSSandJS/AHisotryStroyAboutSelectSimulation
 
 - name: A_tale_of_two_viewports_--_part_one
-  path: ./notes/HTMLandCSSandJS/A_tale_of_two_viewports_--_part_one.md
+  path: /notes/HTMLandCSSandJS/A_tale_of_two_viewports_--_part_one
 
 - name: A_tale_of_two_viewports_--_part_two
-  path: ./notes/HTMLandCSSandJS/A_tale_of_two_viewports_--_part_two.md
+  path: /notes/HTMLandCSSandJS/A_tale_of_two_viewports_--_part_two
 
 - name: A_true_story_of_viewports
-  path: ./notes/HTMLandCSSandJS/A_true_story_of_viewports.md
+  path: /notes/HTMLandCSSandJS/A_true_story_of_viewports
 
 - name: CSS_Positioning_Story
-  path: ./notes/HTMLandCSSandJS/CSS_Positioning_Story.md
+  path: /notes/HTMLandCSSandJS/CSS_Positioning_Story
 
 - name: HistoryOfHTML
-  path: ./notes/HTMLandCSSandJS/HistoryOfHTML.md
+  path: /notes/HTMLandCSSandJS/HistoryOfHTML
 
 - name: Readme
-  path: ./notes/HTMLandCSSandJS/Readme.md
+  path: /notes/HTMLandCSSandJS/Readme
 
 - name: ReflowAndRepaint
-  path: ./notes/HTMLandCSSandJS/ReflowAndRepaint.md
+  path: /notes/HTMLandCSSandJS/ReflowAndRepaint
 
 - name: TheElementsOfHTMLWHOInvisiable
-  path: ./notes/HTMLandCSSandJS/TheElementsOfHTMLWHOInvisiable.md
+  path: /notes/HTMLandCSSandJS/TheElementsOfHTMLWHOInvisiable
 
 - name: TheStoryOfTabIndex
-  path: ./notes/HTMLandCSSandJS/TheStoryOfTabIndex.md
+  path: /notes/HTMLandCSSandJS/TheStoryOfTabIndex
 
 - name: README
-  path: ./notes/NodeJSDebugger/README.md
+  path: /notes/NodeJSDebugger/README
 
 - name: README
-  path: ./notes/OpenAPISpecification/README.md
+  path: /notes/OpenAPISpecification/README
 
 - name: ControlledAndUncontrolledComponent
-  path: ./notes/ReactArticle/ControlledAndUncontrolledComponent.md
+  path: /notes/ReactArticle/ControlledAndUncontrolledComponent
 
 - name: ControlledFormControls
-  path: ./notes/ReactArticle/ControlledFormControls.md
+  path: /notes/ReactArticle/ControlledFormControls
 
 - name: readme
-  path: ./notes/Route/readme.md
+  path: /notes/Route/readme
 
 - name: README
-  path: ./notes/SoundJS/README.md
+  path: /notes/SoundJS/README
 
 - name: README
-  path: ./notes/cs103/README.md
+  path: /notes/cs103/README
 
 - name: ClassConstructorAndProperty
-  path: ./notes/ecmascript/ClassConstructorAndProperty.md
+  path: /notes/ecmascript/ClassConstructorAndProperty
 
 - name: README
-  path: ./notes/ecmascript/README.md
+  path: /notes/ecmascript/README
 
 - name: README
-  path: ./notes/eventloop/README.md
+  path: /notes/eventloop/README
 
 - name: HTTPS
-  path: ./notes/http/HTTPS.md
+  path: /notes/http/HTTPS
 
 - name: README
-  path: ./notes/http/README.md
+  path: /notes/http/README
 
 - name: README
-  path: ./notes/java/README.md
+  path: /notes/java/README
 
 - name: readme
-  path: ./notes/koa/readme.md
+  path: /notes/koa/readme
 
 - name: readme
-  path: ./notes/postcss/readme.md
+  path: /notes/postcss/readme
 
 - name: researchLegacyRepo
-  path: ./notes/researchReports/researchLegacyRepo.md
+  path: /notes/researchReports/researchLegacyRepo
 
 - name: stardartForFE
-  path: ./notes/solutions/stardartForFE.md
+  path: /notes/solutions/stardartForFE
 
 - name: README
-  path: ./notes/webpack/README.md
+  path: /notes/webpack/README
 
 - name: README
-  path: ./notes/ReactArticle/reactAndCanvas/README.md
+  path: /notes/ReactArticle/reactAndCanvas/README
 
