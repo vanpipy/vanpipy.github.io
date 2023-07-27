@@ -1,17 +1,62 @@
+- name: ClassConstructorAndProperty
+  path: /notes/ClassConstructorAndProperty
+
+- name: ClojureFlavoredJavascript
+  path: /notes/ClojureFlavoredJavascript
+
+- name: ControlledAndUncontrolledComponent
+  path: /notes/ControlledAndUncontrolledComponent
+
+- name: ControlledFormControls
+  path: /notes/ControlledFormControls
+
+- name: ECMAScriptQuestions
+  path: /notes/ECMAScriptQuestions
+
+- name: EngineerMethod
+  path: /notes/EngineerMethod
+
+- name: EventDriven
+  path: /notes/EventDriven
+
+- name: HTTP
+  path: /notes/HTTP
+
+- name: HTTPS
+  path: /notes/HTTPS
+
+- name: JAVA
+  path: /notes/JAVA
+
+- name: KOA
+  path: /notes/KOA
+
+- name: OpenAPISpecification
+  path: /notes/OpenAPISpecification
+
 - name: README
   path: /notes/README
+
+- name: ResearchLegacyRepo
+  path: /notes/ResearchLegacyRepo
+
+- name: Route
+  path: /notes/Route
+
+- name: StardartForFE
+  path: /notes/StardartForFE
+
+- name: Webpack
+  path: /notes/Webpack
+
+- name: reactAndCanvas
+  path: /notes/reactAndCanvas
 
 - name: StandardDescription
   path: /articles/StandardDescription
 
 - name: index
   path: /articles/index
-
-- name: README
-  path: /notes/ClojureJavaScript/README
-
-- name: README
-  path: /notes/EngineerMethod/README
 
 - name: AHisotryStroyAboutSelectSimulation
   path: /notes/HTMLandCSSandJS/AHisotryStroyAboutSelectSimulation
@@ -31,9 +76,6 @@
 - name: HistoryOfHTML
   path: /notes/HTMLandCSSandJS/HistoryOfHTML
 
-- name: Readme
-  path: /notes/HTMLandCSSandJS/Readme
-
 - name: ReflowAndRepaint
   path: /notes/HTMLandCSSandJS/ReflowAndRepaint
 
@@ -43,60 +85,6 @@
 - name: TheStoryOfTabIndex
   path: /notes/HTMLandCSSandJS/TheStoryOfTabIndex
 
-- name: README
-  path: /notes/NodeJSDebugger/README
-
-- name: README
-  path: /notes/OpenAPISpecification/README
-
-- name: ControlledAndUncontrolledComponent
-  path: /notes/ReactArticle/ControlledAndUncontrolledComponent
-
-- name: ControlledFormControls
-  path: /notes/ReactArticle/ControlledFormControls
-
-- name: readme
-  path: /notes/Route/readme
-
-- name: README
-  path: /notes/SoundJS/README
-
-- name: README
-  path: /notes/cs103/README
-
-- name: ClassConstructorAndProperty
-  path: /notes/ecmascript/ClassConstructorAndProperty
-
-- name: README
-  path: /notes/ecmascript/README
-
-- name: README
-  path: /notes/eventloop/README
-
-- name: HTTPS
-  path: /notes/http/HTTPS
-
-- name: README
-  path: /notes/http/README
-
-- name: README
-  path: /notes/java/README
-
-- name: readme
-  path: /notes/koa/readme
-
-- name: readme
-  path: /notes/postcss/readme
-
-- name: researchLegacyRepo
-  path: /notes/researchReports/researchLegacyRepo
-
-- name: stardartForFE
-  path: /notes/solutions/stardartForFE
-
-- name: README
-  path: /notes/webpack/README
-
-- name: README
-  path: /notes/ReactArticle/reactAndCanvas/README
+- name: SoundJS
+  path: /notes/SoundJS/SoundJS
 

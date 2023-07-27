@@ -23,3 +23,7 @@ f(x) compose g(x) is g(f(x)).
 The Composition Function did not cost data. The function is just waiting data to do something, it's similar to or same to pipe without the function executed order. `compose(f, g)` equal `pipe(g, f)`.
 
 ### Transducers
+> Transducers are just composeable transformers applied to reducers to fold iterables.
+
+## Reference
+* [What's a Transducer?](https://raganwald.com/2017/04/30/transducers.html)
