@@ -1,0 +1,102 @@
+@startuml
+class Coms {
+    Com CAP4*
+}
+
+class BaseCom {
+    Func generate<config>
+    Func register<config>
+    Func configuration<config>
+    Func import<key>
+}
+
+class ManagementCom {
+    Com layout<attrs>
+}
+
+class DesktopUtils {
+    Service accessDOM<key | DOM>
+    Service bindEvent<key>
+    Service integrateMicroEnd<pkg>
+}
+
+class MobileUtils {
+    Func trigger<MobileEvent>
+}
+
+class BaseFramework {
+    Concernt Plugin
+    Concernt Network
+    Concernt Route
+    Concernt DataFlow
+    Concernt MicroEnd
+    Concernt I18n
+    Concernt RepositoryConfig
+    Concernt Certification
+    Concernt InvokingService
+    Concernt Authorization
+    Concernt State
+    Concernt Dict
+}
+
+class ManagementFramework {
+    Concernt Debugger
+    Concernt Builder
+    Concernt LayoutManagement
+    Concernt Certification
+    Concernt Authorization
+    Concernt UserManagement
+    Concernt RoleManagement
+    Concernt AgentManagement
+    Concernt MenuManagement
+    Concernt SystemManagement
+    Concernt Auditment
+    Concernt integrateFlowEngine
+    Concernt Cache
+}
+
+class SiteFramework {
+    Concernt Debugger
+    Concernt Builder
+    Concernt LayoutManagement
+    Concernt ServerSideRender
+}
+
+class MobileFramework {
+    Concernt Debugger
+    Concernt Builder
+}
+
+class Toolkit {
+    String version
+
+    Func create<key, type>
+    Func debug<?>
+    Func build<config>
+    Func test<config>
+    Func mock<config>
+    Func doc<config>
+    Func lint<config>
+    Func perfermance<config>
+    Func release<version>
+}
+
+class IDEExtension {
+    Func manage
+    Func create<key, type>
+    Func download<key>
+    Func scan
+    Func scanDashboard
+    Func generateTpl<key>
+    Concernt Document
+}
+
+class VisualEditor {
+    Com CodeCanvans
+    Com Palette
+    Com TextBox
+    Com Stage
+    Com Configuration
+    Com Player
+}
+@enduml

@@ -1,0 +1,110 @@
+
+       ┌─┐
+       ║"│
+       └┬┘
+       ┌┼┐
+        │            ┌───────────────────────────────┐          ┌────────────────┐                ┌─────────────────┐
+       ┌┴┐           │Intergration Development Editor│          │Instruct Toolkit│                │Material Packages│
+      user           └───────────────┬───────────────┘          └───────┬────────┘                └────────┬────────┘
+       │                             │                                  │                                  │
+       │                             │        ╔═════════════════════════╧══╗                               │
+═══════╪═════════════════════════════╪════════╣ Environment initialization ╠═══════════════════════════════╪══════════════
+       │                             │        ╚═════════════════════════╤══╝                               │
+       │                             │                                  │                                  │
+       │                             │                                  │                                  │
+       │ ───────────────────────────>│                                  │                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ install deps                 │                                  │
+       │                             <───┘                              │                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ create code editor           │                                  │
+       │                             <───┘                              │                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ create design editor         │                                  │
+       │                             <───┘                              │                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ create previewer             │                                  │
+       │                             <───┘                              │                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ wait to import one repo      │                                  │
+       │                             <───┘                              │                                  │
+       │                             │                                  │                                  │
+       │                             │                                  │                                  │
+       │                             │           ╔═════════════════════╗│                                  │
+═══════╪═════════════════════════════╪═══════════╣ Repo initialization ╠╪══════════════════════════════════╪══════════════
+       │                             │           ╚═════════════════════╝│                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ import a repo via a url      │                                  │
+       │                             <───┘  or selected one             │                                  │
+       │                                                                │                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ create a workspace           │                                  │
+       │                             <───┘                              │                                  │
+       │                             │                                  │                                  │
+       │                             │   send instruct `initialize`     │                                  │
+       │                             │    with the parameters           │                                  │
+       │                             │─────────────────────────────────>│                                  │
+       │                             │                                  │                                  │
+       │                             │                                  │     find the target material     │
+       │                             │                                  │ ─────────────────────────────────>
+       │                             │                                  │                                  │
+       │                             │                                  │   return the material or empty   │
+       │                             │                                  │ <─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+       │                             │                                  │                                  │
+       │                             │                                  │────┐                             │
+       │                             │                                  │    │ clone the material          │
+       │                             │                                  │<───┘ to workspace                │
+       │                             │                                  │                                  │
+       │                             │                                  │                                  │
+       │                             │                                  │────┐
+       │                             │                                  │    │ first commit in the workspace
+       │                             │                                  │<───┘
+       │                             │                                  │                                  │
+       │                             │        repo initialized          │                                  │
+       │                             │<─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─│                                  │
+       │                             │                                  │                                  │
+       │                             ────┐                              │                                  │
+       │                                 │ load the repo                │                                  │
+       │                             <───┘ and refresh the UI           │                                  │
+       │                                                                │                                  │
+      user           ┌───────────────┴───────────────┐          ┌───────┴────────┐                ┌────────┴────────┐
+       ┌─┐           │Intergration Development Editor│          │Instruct Toolkit│                │Material Packages│
+       ║"│           └───────────────────────────────┘          └────────────────┘                └─────────────────┘
+       └┬┘
+       ┌┼┐
+        │
+       ┌┴┐
+
+@startuml
+actor user
+participant "Intergration Development Editor" as IDE
+participant "Instruct Toolkit" as ITKIT
+participant "Material Packages" as MPKG
+
+== Environment initialization ==
+user -> IDE
+IDE -> IDE: install deps
+IDE -> IDE: create code editor
+IDE -> IDE: create design editor
+IDE -> IDE: create previewer
+IDE -> IDE: wait to import one repo
+
+== Repo initialization ==
+IDE -> IDE: import a repo via a url\n or selected one
+IDE -> IDE: create a workspace
+IDE -> ITKIT: send instruct `initialize`\n with the parameters
+ITKIT -> MPKG: find the target material
+MPKG --> ITKIT: return the material or empty
+ITKIT -> ITKIT: clone the material\nto workspace
+ITKIT -> ITKIT: first commit in the workspace
+ITKIT --> IDE: repo initialized
+IDE -> IDE: load the repo\nand refresh the UI
+
+@enduml
