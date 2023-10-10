@@ -1,0 +1,120 @@
+@startuml
+actor "Developer Actor" as DA
+
+usecase "open editor"
+usecase "quit editor"
+usecase "finish a goal"
+
+package CodeEditor {
+    usecase "open repository(pure code)"
+    usecase "open directory(pure code)"
+
+    usecase "preview editor"
+    usecase "edit editor configuration"
+    usecase "edit directory"
+    usecase "change directory name"
+    usecase "add new directory"
+    usecase "remove directory"
+    usecase "edit file"
+    usecase "change file name"
+    usecase "add new file"
+    usecase "remove file"
+    usecase "modify file content"
+
+    usecase "highlight"
+    usecase "error checking"
+    usecase "auto completion"
+
+    usecase "compile"
+    usecase "build"
+    usecase "run"
+}
+
+package PresentationEditor {
+    usecase "open repository"
+    usecase "open directory"
+
+    usecase "change page directory name"
+    usecase "add new page directory"
+    usecase "remove page directory"
+
+    usecase "change page entry file name"
+    usecase "change page style file name"
+    usecase "change page layer file name"
+    usecase "add new page layer file"
+    usecase "remove page layer file"
+
+    usecase "edit canvas"
+    usecase "drag a material into canvas"
+    usecase "select a material"
+    usecase "remove a material"
+
+    usecase "search materials"
+    usecase "drag a material"
+    usecase "edit a material"
+
+    usecase "config the material attributes"
+    usecase "config the material layout"
+
+    usecase "console panel"
+
+    usecase "compile presentation"
+    usecase "preview presentation"
+}
+
+DA --> "open editor"
+"open editor" --> "quit editor" : anytime\n the developer want
+
+"open editor" --> "open repository(pure code)"
+"open repository(pure code)" --> "preview editor"
+
+"open editor" --> "open directory(pure code)"
+"open directory(pure code)" --> "preview editor"
+
+"open editor" --> "edit editor configuration"
+
+"open editor" --> "preview editor" : the repository open already
+"preview editor" --> "edit directory"
+"edit directory" --> "change directory name"
+"edit directory" --> "add new directory"
+"edit directory" --> "remove directory"
+
+"preview editor" --> "edit file"
+"edit file" --> "change file name"
+"edit file" --> "add new file"
+"edit file" --> "remove file"
+"edit file" --> "modify file content"
+
+"modify file content" --> "highlight"
+"modify file content" --> "error checking"
+"modify file content" --> "auto completion"
+
+"modify file content" --> "compile" : file modified
+"compile" <-- "build" #line.dashed : blocked
+"compile" --> "build" : no error
+"build" --> "run"
+
+"run" --> "finish a goal"
+"finish a goal" --> "quit editor"
+
+"open editor" --> "open repository"
+"open editor" --> "open directory"
+
+"open repository" --> "edit canvas"
+"open directory" --> "edit canvas"
+
+"edit canvas" --> "drag a material into canvas"
+"drag a material into canvas" --> "select a material"
+"drag a material into canvas" --> "remove a material"
+
+"edit canvas" --> "search materials"
+"search materials" --> "drag a material"
+"search materials" --> "edit a material"
+
+"edit canvas" --> "config the material attributes"
+"edit canvas" --> "config the material layout"
+
+"edit canvas" --> "compile presentation" : when everything done
+"compile presentation" --> "preview presentation" : no error
+"compile presentation" --> "console panel" : display the error message
+@enduml
