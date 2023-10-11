@@ -1,0 +1,57 @@
+@startuml
+entity Developer <<entity>>
+
+class Editor <<entity>>
+class CodeEditor <<entity>>
+class PresentationEditor <<entity>>
+
+entity Menu <<entity>>
+entity FileManager <<entity>>
+entity FileContainer <<entity>>
+entity Console <<entity>>
+entity VersionControl <<entity>>
+entity Compiler <<entity>>
+
+entity PageManager <<entity>>
+entity Canvas <<entity>>
+entity MaterialPalette <<entity>>
+entity MaterialConfig <<entity>>
+entity MaterialBox <<entity>>
+
+diamond cConnector
+diamond pConnector
+
+Editor <|-d- CodeEditor
+Editor <|-d- PresentationEditor
+
+Editor *-u- cConnector
+Editor *-u- pConnector
+
+cConnector *-u- Menu
+cConnector *-u-- FileManager
+cConnector *-u- FileContainer
+cConnector *-u- Console
+cConnector *-u- VersionControl
+cConnector *-u- Compiler
+
+pConnector *-u- PageManager
+pConnector *-u- Canvas
+pConnector *-u- MaterialPalette
+pConnector *-u- MaterialConfig
+pConnector *-u- MaterialBox
+
+FileManager -u- FileContainer : display file content >
+
+Developer -d- Menu : editor setting etc. >
+Developer -d- FileManager : manage dirs and files >
+Developer -d- FileContainer : edit the file content >
+Developer -d- Console : < interact with teminals
+Developer -d- VersionControl : use version tools like git or others >
+Developer -d- Compiler : invoke the Compiler APIs >
+
+Developer -d- PageManager : manage the pages >
+Developer -d- Canvas : drag and edit material >
+Developer -d- MaterialPalette : search materials
+Developer -d- MaterialConfig : edit the active material's attrs
+Developer -d- MaterialBox : edit the active material's layout
+@enduml

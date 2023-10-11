@@ -1,6 +1,0 @@
-@startuml
-start
-:user;
-:repo;
-end
-@enduml
