@@ -35,8 +35,12 @@ jobs:
         with:
           python-version: '3.12.7'
           cache: 'pip'
-      - run: 
-          pip install -r requirements.txt && jupyter-book build notebook --path-output .
+      - run: pip install -r requirements.txt && jupyter-book build notebook --path-output .
+      - uses: actions/upload-artifact@master
+        with:
+          name: page
+          path: _build/html
+          if-no-files-found: error
 
   deploy:
     environment:
@@ -45,15 +49,16 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Download Artifact
+        uses: actions/download-artifact@master
+        with:
+          name: page
+          path: .
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # upload entire directory
-          path: './_build/html'
+          path: .
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
