@@ -1,7 +1,7 @@
 # Java learning
 it from the java tutorials for JDK 8.
 
-# Language basics
+## Language basics
 * Variables
     + Instance Variables(Non-Static Fields)
     + Class Variables(Static Fields) `final static int numGears = 6;`
@@ -12,7 +12,7 @@ it from the java tutorials for JDK 8.
 * Expressions, Statements, and Blocks
 * Control Flow Statements
 
-#### Basic example
+### Basic example
 
     //Operators[+,-,*,/,%...etc] -> Expressions -> Statements -> Blocks | -> Block
     char prefix = 'A';                                                  |
@@ -48,9 +48,9 @@ it from the java tutorials for JDK 8.
         doSomething();
     }
 
-# Classes and Objects
+## Classes and Objects
 
-#### Classes
+### Classes
 
 ```
     public class Bicycle {
@@ -96,7 +96,7 @@ that is the explaination of `fields, local variables and parameters`.
 2. Variables in a method or block of code --- these are called local variables.
 3. Variables in method declarations --- these are called parameters.
 
-#### Objects
+### Objects
 1. Controling access to member of a Class - public, private, protected, _no modifier_.
 2. Understanding Class Members - _static_ and otherside.
 
@@ -131,11 +131,11 @@ that is the explaination of `fields, local variables and parameters`.
     Bicycle.numberOfBicycle; //1
 ```
 
-#### Nested Classes
+### Nested Classes
 
-#### Enum Types
+### Enum Types
 
-# Annotations
+## Annotations
 Annotations, a form of metadata, provide data about a program that is not part of the program itself. Annotations hav no direct effect on the operation of the code they annotate.
 
 Annotations have a number of uses, among them:
@@ -144,7 +144,7 @@ Annotations have a number of uses, among them:
 + Compiler-time and deployment-time processing - Software tools can process annotation infomation to generate code, XML files, and so forth.
 + Runtime processing - Some annotations are availdable to be examined at runtime.
 
-#### The format of an Annotation
+### The format of an Annotation
 The at sign character (@) indicates to the compiler that what follows is an annotation, just like below:
 + @Entity
 + @Override
@@ -152,7 +152,7 @@ The at sign character (@) indicates to the compiler that what follows is an anno
 + @SuppressWarnings("unchecked")
 + ...
 
-#### Where Annotations Can Be Used
+### Where Annotations Can Be Used
 Annotations can be applied to declarations: declaration of classes, fields, methods, and other program elements.
 
 ```
@@ -169,28 +169,28 @@ class UnmodifiedList<T> implements @Readonly List<@Readonly T> { ... }
 void monitorTemperature() throws @Critical TemperatureExcetion { ... }
 ```
 
-#### Predefined Annotation Types
+### Predefined Annotation Types
 The Predefined annotation types defined in java.lang are @Deprecated, @Override, @Suppresswarnings, @SafeVarages, @FunctionalInterface. And several meta-annotation types defined in java.lang.annotation. @Retention, @Documented, @Target, @Inherited, @Repeatable.
 
-# Interfaces and Inheritance
+## Interfaces and Inheritance
 + `Interface` You can read more about interfaces here - what they are for, why you might want to write one, and how to write one.
 + `Inheritance` Describe the way in which you can derive one class from another.
 
-#### Interfaces
+### Interfaces
 An _interface_ is a reference type, similar to a class, that can contain only constants, method signatures, default methods, and nested types.
 
-#### Inheritance
+### Inheritance
 The idea of inheritance is simple but powerful: When you want to create a new class and there is already a class that includes some of the code that you want, you can derive your new class form the existing class, In doing this, you can reuse the fields and methods of the existing class without having to write (and debug!) them yourself.
 
-# Numbers and Strings
+## Numbers and Strings
 
-#### Numbers
+### Numbers
 All of the numeric wrapper classes are subclasses of the abstract class Number include Byte, Integer, Double, Short, Float, Long.
 ```
 int number = 40;
 ```
 
-#### Strings
+### Strings
 Strings are objects.
 ```
 char ch = "a";
@@ -205,10 +205,10 @@ String sb = new StringBuilder();
 sb.append("Greetings");
 ```
 
-#### Autoboxing and Unboxing
+### Autoboxing and Unboxing
 Autoboxing is the automatic conversion that the Java compiler between the primitive types and their corresponding object wrapper classes. For example, converting an _int_ to an _Integer_, a _double_ to a _Double_, and so on. if the conversion goes the other way, this is called _unboxing_.
 
-# Generics
+## Generics
 The compiler-time bugs can be detected easier than others, so the Generics add stability to your code by making more of your bugs detectable at compiler time.
 
 Enabling programmer to implement generics glgorithms.
@@ -225,12 +225,12 @@ list.add("hello");
 String s = list.get(0) // no cast
 ```
 
-# Packages
+## Packages
 Packages are a feature of the Java programing language that help you to organize and structure your classes and their relationships to one another.
 
 read [this](https://docs.oracle.com/javase/tutorial/java/package/packages.html) when try to use it.
 
-# Object-Oriented Programing Concepts
+## Object-Oriented Programing Concepts
 It's some good questions for the concepts about OOP.
 
 * What is an Object?

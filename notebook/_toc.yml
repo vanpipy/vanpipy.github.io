@@ -14,6 +14,16 @@ parts:
       - file: web/HTTPS
       - file: web/Route
       - file: web/Webpack
+      - file: web/ClassConstructorAndProperty
+      - file: web/ClojureFlavoredJavascript
+      - file: web/ControlledAndUncontrolledComponent
+      - file: web/ControlledFormControls
+      - file: web/reactAndCanvas
+      - file: web/JAVA
+      - file: web/KOA
+      - file: web/OpenAPISpecification
+      - file: web/WhenAndHowToUseStream
+      - file: web/ECMAScriptQuestions
 
   - caption: W3C
     chapters:
@@ -27,6 +37,12 @@ parts:
       - file: w3c/TheElementsOfHTMLWHOInvisiable
       - file: w3c/TheStoryOfTabIndex
 
+  - caption: Engineering
+    chapters:
+      - file: engineering/EngineerMethod
+      - file: engineering/StandardDescription
+      - file: engineering/StardartForFE
+      - file: engineering/ResearchLegacyRepo
 
   - caption: About the developer
     chapters:

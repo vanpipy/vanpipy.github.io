@@ -1,25 +1,12 @@
 
 # 如何建立前端工作流
-* [代码](#代码)
-* [流程](#流程)
-* [测试](#测试)
-* [文档](#文档)
-* [总结](#总结)
 
 ## 代码
 应用在网络尤其是超文本链接为跳转方式的环境, 主要由一下三种内容构成:
 
 1. [HTML](https://zh.wikipedia.org/wiki/HTML) - 标准标记语言
-    * [HTML使用方法](#HTML使用方法)
-    * [HTML自定义标签](#HTML自定义标签)
 2. [CSS](https://zh.wikipedia.org/wiki/%E5%B1%82%E5%8F%A0%E6%A0%B7%E5%BC%8F%E8%A1%A8) - 结构化文档
-    * [CSS权重系统](#CSS权重系统)
-    * [CSS书写规范](#CSS书写规范)
-    * [CSS预编译工具](#CSS预编译工具)
 3. [Javascript](https://zh.wikipedia.org/wiki/JavaScript) - 高级解释性编程语言
-    * [JS语言特性](#JS语言特性)
-    * [JS书写规范](#JS语言特性)
-    * [JSorTS编译工具](#JS编译工具)
 
 ## HTML使用方法
 HTML并非是一门编程语言, 所以对于其使用主要在于熟悉和记忆, 进而形成良好的结构化信息, 产生足够人类理解的语义化信息.
@@ -189,7 +176,7 @@ TODO
 ## 总结
 TODO
 
-# 参考
+## 参考
 * [What is the HTML](https://zh.wikipedia.org/wiki/HTML)
 * [CSS 的模組化方法：OOCSS、SMACSS、BEM、CSS Modules、CSS in JS](https://cythilya.github.io/2018/06/05/css-methodologies/)
 * [PostCss](https://github.com/postcss/postcss/blob/master/docs/README-cn.md)
