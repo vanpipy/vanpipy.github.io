@@ -3,7 +3,21 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Topic Guides
+    chapters:
+    - file: essay
+
+  - caption: Web
+    chapters:
+    - file: web/intro
+      sections:
+      - file: web/HTTP
+      - file: web/HTTPS
+      - file: web/Route
+      - file: web/Webpack
+
+  - caption: About the developer
+    chapters:
+    - file: about/readme-en
+      

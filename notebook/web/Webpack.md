@@ -29,7 +29,7 @@ Tow way as below:
 * CommonJS
 * AMD - Async Module Definition
 
-# Q&A
+## Q&A
 ***Q***: What is the webpack?
 
 ***A***: Here is from article [what-is-webpack](https://survivejs.com/webpack/what-is-webpack/):
@@ -71,7 +71,7 @@ So the loader is a function that try to help webpack to transform the file encou
 > Compared to loaders, plugins are a more flexible means to extend webpack. You have access to webpack's compiler and compilation processes. It's possible to run child compilers, and plugins can work in tandem with loaders as `MiniCssExtractPlugin` shows.\
 
 
-# 参考
+## References
 * [what-is-webpack](https://survivejs.com/webpack/what-is-webpack/)
 * [webpack-interview-questions](https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md)
 * [commonjs](https://requirejs.org/docs/commonjs.html)

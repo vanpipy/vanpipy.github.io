@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # Leroy Fan
 > A senior software engineer, web developer. I have 3+ years node, 3+ years react, 2 years java, 1 year Mysql, 2 years management with the 10-persons team and 1 year architecture design experience, be expert in solving the problems in the web application. And I love in vim & linux, to figure out the rule in the process and empower the process to make difference. I am very curious to find a different way to solve problem and wish there is a better way no one reached ever, to face the challenge and get something new.
 
@@ -64,5 +60,5 @@ ChengDu | Front-End Engineer | 2013.8 - 2016.9
 * create, execute and manage the release workflow
 * __Skills__：Jquery, Bootstrap, css, html, bash
 
-# Thanks
+## Thanks
 Thanks to here and hope to have oppotunity to be your partner, good luck.
