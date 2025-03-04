@@ -44,6 +44,10 @@ parts:
       - file: engineering/StardartForFE
       - file: engineering/ResearchLegacyRepo
 
+  - caption: Calculus
+    chapters:
+      - file: calculus/intro
+
   - caption: About the developer
     chapters:
     - file: about/readme-en
