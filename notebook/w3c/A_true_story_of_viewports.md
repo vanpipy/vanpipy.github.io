@@ -3,10 +3,10 @@
 
 > 纸上得来终觉浅, 须知此事要躬行.
 
-# 起由
+## 起由
 新增一个只在移动设备中展示的网站。
 
-# 预期的设计
+## 预期的设计
 
 ### 条件
 1. 只有预期设计图, 没有预期最终效果指定机型.
@@ -37,7 +37,7 @@
 
 在只使用webpack, babel, px2rem, autoprefixer的情况下，好像所有的问题都解决的，看起来棒棒的。
 
-# 实际的情况
+## 实际的情况
 
 ### 又是额外的问题
 1. __十分之一__在缩小50%之后该用37.5还是75?
@@ -49,12 +49,12 @@
 3. 在水平方向的间距表现良好，但是在 `高度/宽度` 比例增高的设备中，高度的表现不是太好。
     * 本质上和上面的2问题是一样的，但是如何选择适合基本单位是个问题，这个问题并没有得到很好的解决。
 
-# 结论
+## 结论
 单纯的一个可行方案，并不能带来问题的解决，但是或许能够带给我们一些启发和认识。
 
 ---
 
-# 什么启发
+## 什么启发
 
 ### `<meta name="viewport" />` 带来了什么
 可以先看一个应用的例子，`<meta name="viewport" content="width=device-width,initial-scale=0.86,maximum-scale=3.0,minimum-scale=0.86" />`:
@@ -94,7 +94,7 @@
 
 ![](https://ws3.sinaimg.cn/large/9150e4e5gy1fx4e0qfkd3g20b40b4wl1.gif)
 
-# 参考
+## 参考
 * [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
 * [CSS Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
 * [Viewport Rule](https://drafts.csswg.org/css-device-adapt/#at-ruledef-viewport)

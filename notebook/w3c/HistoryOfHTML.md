@@ -57,7 +57,7 @@ HTML 是一种标记语言, 全程为超文本标记语言, 最初是为了进�
 单独书写 HTML,  始终不得其要, 其因在, 并没有尝试去理解 HTML 和它所处在的历史环境, 以及它在那个时候站在历史中的位置.人往往对于熟知的事物, 习以为常, 我于此也并不例外.
 故所思所想, 务观其全, 而非一隅, 如此方可理解, 那些不能被了解的波澜壮阔.
 
-# Reference
+## 参考
 * [HTML wiki](https://www.wikiwand.com/en/HTML)
 * [SGML and HTML](https://www.w3.org/TR/html4/intro/sgmltut.html)
 * [History of personal computer](https://www.wikiwand.com/en/History_of_personal_computers)

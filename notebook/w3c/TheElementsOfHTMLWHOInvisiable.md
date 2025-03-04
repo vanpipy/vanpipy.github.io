@@ -85,7 +85,7 @@ head 中可以包含很多内容, 但总的来讲, 可以将包含的内容称�
 meta的可自定义形式众多, 而[facebook open graph tags](https://developers.facebook.com/docs/sharing/webmasters/)或者[twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 都展现了足够而且丰富的可用性, 对于meta或许还可以有一些期待.
 
-# References
+## 参考
 * [The Head Element and Related Elements](https://www.w3.org/MarkUp/html3/dochead.html)
 * [MDN HTML Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 * [head](http://www.htmlquick.com/reference/tags/head.html)

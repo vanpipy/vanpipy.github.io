@@ -10,12 +10,23 @@ parts:
 
   - caption: Web
     chapters:
-    - file: web/intro
-      sections:
       - file: web/HTTP
       - file: web/HTTPS
       - file: web/Route
       - file: web/Webpack
+
+  - caption: W3C
+    chapters:
+      - file: w3c/A_tale_of_two_viewports_part_one
+      - file: w3c/A_tale_of_two_viewports_part_two
+      - file: w3c/A_true_story_of_viewports
+      - file: w3c/AHisotryStroyAboutSelectSimulation
+      - file: w3c/CSS_Positioning_Story
+      - file: w3c/HistoryOfHTML
+      - file: w3c/ReflowAndRepaint
+      - file: w3c/TheElementsOfHTMLWHOInvisiable
+      - file: w3c/TheStoryOfTabIndex
+
 
   - caption: About the developer
     chapters:
