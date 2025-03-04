@@ -110,4 +110,5 @@ sphinx:
     - sphinx_inline_tabs
     - sphinx_proof
     - sphinx_examples
+    - sphinxcontrib.plantuml
     # - sphinxext.rediraffe
