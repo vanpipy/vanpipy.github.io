@@ -10,7 +10,7 @@
 * Linkedin: [Leroy.Fan](https://www.linkedin.com/in/leroy-fan-8666b0200)
 
 ## Experience
-#### 新交投(成都)大数据
+### 新交投(成都)大数据
 
 ChengDu | Senior Front-End Engineer | 2022.7 - 2023.8
 
@@ -20,7 +20,7 @@ ChengDu | Senior Front-End Engineer | 2022.7 - 2023.8
 * manage the development complex and lead the team members to deliver efficiently
 * __Skills__：Java, Vue, Vite, SpringBoot, SpringCloud, JWT, SOLID
 
-#### KeHolding Inc.
+### KeHolding Inc.
 
 ChengDu | Senior Software Engineer | 2020.12 - 2022 .5
 
@@ -31,7 +31,7 @@ ChengDu | Senior Software Engineer | 2020.12 - 2022 .5
 * implement toolkits which integrates webpack5 and commandjs for the local dev serving, configuration, collection and continuing optimization
 * __Skills__：Node, React, Webpack, MicroFrontEnd, CommandJS
 
-#### Active Network Inc.
+### Active Network Inc.
 
 ChengDu | Software Engineer | 2019.5 - 2020.8
 
@@ -41,7 +41,7 @@ ChengDu | Software Engineer | 2019.5 - 2020.8
 * implement the dynamic form when the checkout
 * __Skills__：Java, React, Backbone, JqueryJS, Scrum
 
-#### 神马专车
+### 神马专车
 
 ChengDu | Front-End Team Leader | 2016.11 - 2019.3
 
@@ -50,7 +50,7 @@ ChengDu | Front-End Team Leader | 2016.11 - 2019.3
 * incremental sprint and decompose requiments and its complex
 * __Skills__：React, Vue, Weex, Scrum
 
-#### 地利研发中心
+### 地利研发中心
 
 ChengDu | Front-End Engineer | 2013.8 - 2016.9
 

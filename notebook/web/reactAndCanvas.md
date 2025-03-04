@@ -6,10 +6,10 @@
 
 ***A***:
 
-### React's Different
+## React's Different
 React's core purpose is to build UI components; it is often referred to as just the "V"(View) in an "MVC" architecture.
 
-### React lifecycle
+## React lifecycle
 Initialization ---> update ---> Destruction
       |               |             |
       v               v             v
@@ -18,10 +18,10 @@ componentDidMount
                 componentWillUpdate
                                 componentWillUnmount
 
-### JSX
+## JSX
 JSX is an XML/HTML-like syntax used by React that extends ECMAScript so that XML/HTML-like text can co-exist with Javascript/React code.
 
-### Flux && MVC
+## Flux && MVC
 Flux: Action ---> Dispatcher ---> Store ---> View
 MVC: Modal(data), View(UI), Controller(logic).
 

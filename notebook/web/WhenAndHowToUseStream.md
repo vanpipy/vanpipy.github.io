@@ -3,7 +3,7 @@ The stream is the most powerful and misunderstood feature, it changes the way to
 
 The memory usage and the I/O for data is important in a computer, so let figure it out.
 
-### What is the stream
+## What is the stream
 > Streams are an event-based API for managing and modeling data, and are wonderfully efficient. By leveraging EventEmitter and Node’s non-blocking I/O libraries,
 the stream module allows data to be dynamically processed when it’s available, and
 then released when it’s no longer needed.
@@ -13,11 +13,11 @@ Took it from `Node in practice` and I think it is a great explaination to tell e
 * An event-base API for managing and modeling data, it is an abstract interface and can be called as a protocol.
 * use it via some events by the EventEmitter, it can be used by everyone easily.
 
-### When to use
+## When to use
 * The input data cannot be read into the memory, like a big file.
 * Use the memory efficiently.
 
-### How to use
+## How to use
 * Readable
 
 ```

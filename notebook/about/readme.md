@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # 范锦钢
 > 一名高级软件工程师，网络应用开发者。具备3+年node，3+年react，2年java，1年Mysql和2年10人团队管理及1年应用架构设计经验，擅长在网络应用领域解决各类问题. 热爱使用vim，linux，热衷寻找规律，使用工具赋予过程更大的力量。对解决问题不同的方式极度感兴趣，期待找到更好的路径和角度，去面对不一样的挑战和习得全新的能力。
 
@@ -14,7 +10,7 @@ layout: home
 * Linkedin: [Leroy.Fan](https://www.linkedin.com/in/leroy-fan-8666b0200)
 
 ## 工作经验
-#### 新交投(成都)大数据
+### 新交投(成都)大数据
 
 成都 | 高级前端工程师 | 2022.7 - 2023.8
 
@@ -24,7 +20,7 @@ layout: home
 * 管理开发复杂度，领导小组成员高效交付
 * 技能标签：Java, Vue, Vite, SpringBoot, SpringCloud, JWT, SOLID
 
-#### 贝壳找房
+### 贝壳找房
 
 成都 | 高级工程师 | 2020.12 - 2022 .5
 
@@ -35,7 +31,7 @@ layout: home
 * 实现公共开发工具，集成webpack5和commandjs，设计以服务，配置，采集为一体，可持续优化的开发工具链
 * 技能标签：Node, React, Webpack, MicroFrontEnd, CommandJS
 
-#### 活跃网络
+### 活跃网络
 
 成都 | 软件工程师 | 2019.5 - 2020.8
 
@@ -45,7 +41,7 @@ layout: home
 * 实现了支付表单动态加载功能
 * 技能标签：Java, React, Backbone, JqueryJS, Scrum
 
-#### 神马专车
+### 神马专车
 
 成都 | 前端Leader | 2016.11 - 2019.3
 
@@ -55,7 +51,7 @@ layout: home
 * 创建基础人才量化模型和复合属性模型
 * 技能标签：React, Vue, Weex, Scrum
 
-#### 地利研发中心
+### 地利研发中心
 
 成都 | 前端工程师 | 2013.8 - 2016.9
 
