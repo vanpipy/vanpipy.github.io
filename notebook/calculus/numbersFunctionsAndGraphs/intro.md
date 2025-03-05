@@ -1,0 +1,3 @@
+# Numbers, Functions And Graphs
+
+> Everyone knows that the world in which we live is dominated by motion and  change. The earth moves in its orbit around the sun; a rock thrown upward slows and stops, and the falls back to earth with increasing speed; the population of India grows each year at an increasing rate; and radioactive elements decay. These are merely a few items in the endless array of phenomena for which mathematics is the most natural medium of communication  and understanding. As Galileo said more than 300 years ago, "The book of nature is written in the language of mathematics."

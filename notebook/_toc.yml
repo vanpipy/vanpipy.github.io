@@ -47,6 +47,9 @@ parts:
   - caption: Calculus
     chapters:
       - file: calculus/intro
+      - file: calculus/numbersFunctionsAndGraphs/intro
+        sections:
+          - file: calculus/numbersFunctionsAndGraphs/distanceFormula
 
   - caption: About the developer
     chapters:
