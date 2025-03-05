@@ -50,6 +50,7 @@ parts:
       - file: calculus/numbersFunctionsAndGraphs/intro
         sections:
           - file: calculus/numbersFunctionsAndGraphs/distanceFormula
+          - file: calculus/numbersFunctionsAndGraphs/middleFormula
 
   - caption: About the developer
     chapters:
