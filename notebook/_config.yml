@@ -11,8 +11,8 @@ description: Note here, there and anywhere
 # exclude_patterns: [file-types/include-rst.rst]
 
 # Bibliography settings
-bibtex_bibfiles:
-  - references.bib
+# bibtex_bibfiles:
+  # - references.bib
 
 execute:
   execute_notebooks: cache
@@ -105,10 +105,10 @@ sphinx:
     html_theme_options:
       navigation_with_keys: false
 
-  extra_extensions:
-    - sphinx_click.ext
-    - sphinx_inline_tabs
-    - sphinx_proof
-    - sphinx_examples
-    - sphinxcontrib.plantuml
+  # extra_extensions:
+  #   - sphinx_click.ext
+  #   - sphinx_inline_tabs
+  #   - sphinx_proof
+  #   - sphinx_examples
+  #   - sphinxcontrib.plantuml
     # - sphinxext.rediraffe

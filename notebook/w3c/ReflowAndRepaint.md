@@ -11,7 +11,7 @@ Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser等等.
 
 浏览器的高阶结构图:
 
-![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
+![](https://web.dev/static/articles/howbrowserswork/image/browser-components-9cd8ff834cc9c_1440.png?hl=zh-cn)
 
 一个浏览器最主要的功能便如同图里面描述的一样, 若按照结构图的顺序来讨论, 可能赶不上这一周回家的班车.
 
@@ -34,11 +34,11 @@ Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser等等.
 
 看起来很简单, 那我们先来看看两个渲染引擎的渲染过程的示意图:
 
-![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/webkitflow.png)
+![](https://web.dev/static/articles/howbrowserswork/image/webkit-main-flow-b779d50c0cf28_1440.png?hl=zh-cn)
 
 webkit main flow
 
-![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image008.jpg)
+![](https://web.dev/static/articles/howbrowserswork/image/mozillas-gecko-rendering-b18e445544965_1440.jpg?hl=zh-cn)
 
 Mozilla's Gecko rending engine main flow
 
@@ -50,7 +50,7 @@ Mozilla's Gecko rending engine main flow
 如果这样解释, 那 Reflow 便代表了 `流程3`, 而 Repaint 则代表了 `流程4`. 这样的解释看起来好像合情合理.
 
 ## 布局计算
-在经过一系列[复杂的统计之后](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Render_tree_construction), 渲染引擎需要给予渲染树的每个节点一个确定的坐标和它的尺寸, 
+在经过一系列[复杂的统计之后](https://web.dev/articles/howbrowserswork?hl=zh-cn#render_tree_construction), 渲染引擎需要给予渲染树的每个节点一个确定的坐标和它的尺寸, 
 以便将它们准确的绘制在正确的屏幕位置上, 而这个过程便称作布局或者重排.
 
 ## Dirty bit 系统
@@ -77,7 +77,7 @@ Mozilla's Gecko rending engine main flow
 PS: 探索快乐.
 
 ## 参考
-* [How browsers work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+* [How browsers work](https://web.dev/articles/howbrowserswork?hl=zh-cn)
 * [What's the difference between reflow and repaint?](https://stackoverflow.com/questions/2549296/whats-the-difference-between-reflow-and-repaint)
 * [REFLOWS & REPAINTS: CSS PERFORMANCE MAKING YOUR JAVASCRIPT SLOW?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/)
 * [CSS Triggers](https://csstriggers.com/)
