@@ -47,10 +47,6 @@ The webpack's wrok begins from entry which is javascript module, and then webpac
 
 ***A***: [commonjs](http://www.commonjs.org/), [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md), [es6](https://www.tutorialspoint.com/es6/es6_quick_guide.htm)(since webpack 2).
 
-***Q***: Webpack's Execution Process and how to make it dose work.
-
-***A***: ![](https://survivejs.com/538c4af0d21e375d6d252d38cbb8a993.png)
-
 ***Q***: What is webpack building process?
 
 ***A***:\
