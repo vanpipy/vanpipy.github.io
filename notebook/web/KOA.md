@@ -1,4 +1,4 @@
-# Koa?
+# Koa
 Koa is still a framework for node.js, aims to be smaller, more expressive, and more robust foundation for web applications and APIs.
 
 As we know, node.js uses "Single Threaded Event Loop Model" architecture to handle multiple concurrent clients. So the words like "NodeJS is single-threaded" is a half truth.
