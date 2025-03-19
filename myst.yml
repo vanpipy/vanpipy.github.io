@@ -20,16 +20,19 @@ project:
         - file: notebook/essay.md
         - title: Calculus
           children:
+            - file: notebook/calculus/cheetsheet.ipynb
             - file: notebook/calculus/intro.ipynb
             - title: Numbers Functions And Graphs
               children:
                 - file: >-
-                    notebook/calculus/numbersFunctionsAndGraphs\distanceFormula.ipynb
-                - file: notebook/calculus/numbersFunctionsAndGraphs\middleFormula.ipynb
+                    notebook/calculus/numbersFunctionsAndGraphs/distanceFormula.ipynb
+                - file: notebook/calculus/numbersFunctionsAndGraphs/middleFormula.ipynb
             - title: The Derivative Of A Function
               children:
                 - file: >-
-                    notebook/calculus/theDerivativeOfAFunction\findXInterceptOfTheTangent.ipynb
+                    notebook/calculus/theDerivativeOfAFunction/continuousFuctions.ipynb
+                - file: >-
+                    notebook/calculus/theDerivativeOfAFunction/findXInterceptOfTheTangent.ipynb
         - title: Engineering
           children:
             - file: notebook/engineering/EngineerMethod.md
