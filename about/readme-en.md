@@ -1,4 +1,4 @@
-# Leroy Fan
+## Leroy Fan
 > A senior software engineer, web developer. I have 3+ years node, 3+ years react, 2 years java, 1 year Mysql, 2 years management with the 10-persons team and 1 year architecture design experience, be expert in solving the problems in the web application. And I love in vim & linux, to figure out the rule in the process and empower the process to make difference. I am very curious to find a different way to solve problem and wish there is a better way no one reached ever, to face the challenge and get something new.
 
 * Edu: SiChuan University JinJiang College/EE - 2008-2012
@@ -10,6 +10,17 @@
 * Linkedin: [Leroy.Fan](https://www.linkedin.com/in/leroy-fan-8666b0200)
 
 ## Experience
+
+### 巽风科技
+
+ChengDu | Senior Software Enginner | 2023.11 - now
+
+* Responsible for the dev and tech management to promote the merchant business
+* Support the construction of the tech system, including the frontend application framework, component library, tool chain etc.
+* Support the business needs of the finance team, provide technical support and solution design
+* Support the business needs of the big data team, provide technical support
+* __Skills__：Java, Spring*, Typescript, React, Redis
+
 ### 新交投(成都)大数据
 
 ChengDu | Senior Front-End Engineer | 2022.7 - 2023.8
@@ -20,7 +31,7 @@ ChengDu | Senior Front-End Engineer | 2022.7 - 2023.8
 * manage the development complex and lead the team members to deliver efficiently
 * __Skills__：Java, Vue, Vite, SpringBoot, SpringCloud, JWT, SOLID
 
-### KeHolding Inc.
+### KE Holding Inc.
 
 ChengDu | Senior Software Engineer | 2020.12 - 2022 .5
 
