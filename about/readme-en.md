@@ -25,50 +25,44 @@ ChengDu | Senior Software Enginner | 2023.11 - now
 
 ChengDu | Senior Front-End Engineer | 2022.7 - 2023.8
 
-* support the digital transformation for enterprise at XinJiang, output the solution of frontend application of the SASS, include resource optimization, entry integration and component optimization etc.
-* work with backend engineer, upgrade the application infras and migrate the SprintBoot to SpringCloud to meet the micro service architecture
-* base on component driven arch, compose the single responsibility, interface segregation and dependency inversion principle to make the VUE components more reusable
-* manage the development complex and lead the team members to deliver efficiently
+* Responsible for the management of development complexity, lead the team members to deliver efficiently
+* Support the digital transformation for enterprise at XinJiang, output the solution of frontend application of the SASS, include resource optimization, entry integration and component optimization etc.
+* Support the framework upgrade, migrate SprintBoot to SpringCloud, change the micro service architecture
 * __Skills__：Java, Vue, Vite, SpringBoot, SpringCloud, JWT, SOLID
 
 ### KE Holding Inc.
 
 ChengDu | Senior Software Engineer | 2020.12 - 2022 .5
 
-* support the estate trade, output best practice of the micro frontend application development, application development model and toolkits
-* collaborate with different teams, create the cross-app messager lib to share the roles and authorization information globally
-* design the code model includes entry, data, style to describe one React-Component
-* migrate applications to cloud container and services which includes app code, vendors and auto-CI/CD
-* implement toolkits which integrates webpack5 and commandjs for the local dev serving, configuration, collection and continuing optimization
+* Responsible for the development of the estate trade and upgrade and maintain dev tools
+* Support the estate trade, provide micro frontend application development best practice and business application development model and toolkits
+* Support the migration of applications to cloud container and services, including app code, vendors and auto-CI/CD
+* Support the toolkits for the local dev serving, configuration, collection and continuing optimization
 * __Skills__：Node, React, Webpack, MicroFrontEnd, CommandJS
 
 ### Active Network Inc.
 
 ChengDu | Software Engineer | 2019.5 - 2020.8
 
-* support marathon events management
-* research, dev, test, sprint,sprint,sprint
-* implement the event configration function
-* implement the dynamic form when the checkout
+* Responsible for the development of Marathon Events
+* Support for the development of the Campus Events
+* Support the best practice of the scrum
 * __Skills__：Java, React, Backbone, JqueryJS, Scrum
 
 ### 神马专车
 
 ChengDu | Front-End Team Leader | 2016.11 - 2019.3
 
-* create and support the taxi service for enterprise, create the project manegement model and the engineer model
-* implement the SSO for the platform
-* incremental sprint and decompose requiments and its complex
+* Responsible for the development of the ShenMa Enterprise Solutions and promotion 
+* Support the creation of project management solution and talent recruitment model development
 * __Skills__：React, Vue, Weex, Scrum
 
 ### 地利研发中心
 
 ChengDu | Front-End Engineer | 2013.8 - 2016.9
 
-* support Dili fresh platform
-* implement the shopping car function
-* implement the checkout function
-* create, execute and manage the release workflow
+* Responsible for the development of the E-Commerce platform of the fresh food
+* Support the release workflow
 * __Skills__：Jquery, Bootstrap, css, html, bash
 
 ## Thanks
