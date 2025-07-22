@@ -8,8 +8,9 @@ function setupSystemDeps() {
   echo ">> Install pre-dependencies"
 
   echo ">> $runner install git tmux tree cmake gcc zsh"
-  # see https://monsec.io/posts/resources/kali/mirrors/
-  sudo sed -i 's$http://http.kali.org/kali$https://mirrors.ocf.berkeley.edu/kali/$' /etc/apt/sources.list
+  # see https://mirrors.tuna.tsinghua.edu.cn/help/kali/
+  sudo sed -i 's/^deb/# deb/g' /etc/apt/sources.list
+  sudo sed -i '$a\deb https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main non-free contrib non-free-firmware' /etc/apt/sources.list
   sudo $runner update
   sudo $runner install git tmux tree cmake gcc zsh
 }
