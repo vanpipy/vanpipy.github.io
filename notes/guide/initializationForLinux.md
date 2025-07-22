@@ -115,6 +115,14 @@ function setupVim() {
   echo ">> Once failed try \"sudo update-alternatives --config editor\""
 }
 
+function setupPyEnv() {
+  # see https://github.com/pyenv/pyenv
+  curl -fsSL https://pyenv.run | bash
+  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+  echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+  echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
+}
+
 function install() {
   setupSystemDeps
   setupGitAccount
@@ -123,6 +131,7 @@ function install() {
   setupGitExtras
   setupNode
   setupVim
+  setupPyEnv
 
   exit 0
 }
