@@ -1,7 +1,7 @@
 # Initialization for Windows
 
 1. Install [Chocolatey](https://chocolatey.org/install)
-    * Install python via `choco install python`
+    * Install python via (pyenv)[https://github.com/pyenv-win/pyenv-win]
         * `pip config set global.index-url https://mirrors.sustech.edu.cn/pypi/web/simple`
     * Install volta `choco install volta`
         * `volta install node`
