@@ -63,9 +63,20 @@ function setupZsh() {
   git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
   cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
   chsh -s /bin/zsh
+
   git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH/plugins/zsh-autocomplete
   sed -i 's/plugins=(/plugins=(zsh-autocomplete /' ~/.zshrc
   sed -i 's/ZSH_THEME=".\+"/ZSH_THEME="bira"/' ~/.zshrc
+
+  sed -i '$a\set -o vi' ~/.zshrc
+  echo ">> Done"
+}
+
+function setupGitExtras() {
+  echo ">> Install git-extras"
+  mkdir -p ~/Project
+  git clone https://github.com/tj/git-extras.git ~/Project/git-extras
+  sed -i '$a\source ~/Project/git-extras/etc/git-extras-completion.zsh' ~/.zshrc
   echo ">> Done"
 }
 
@@ -73,7 +84,6 @@ function setupNode() {
   echo ">> Install node version manager and node@20.10.0"
   curl https://get.volta.sh | bash
   volta install node@20.10.0
-  source ~/.bashrc
   echo ">> Done"
 }
 
@@ -88,6 +98,7 @@ function setupVim() {
   echo ">> Done"
 
   echo ">> Install neovim"
+  mkdir -p ~/Download
   curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz -o ~/Download/nvim-linux.tar.gz
   cd ~/Download
   sudo rm -rf /opt/nvim
@@ -109,6 +120,7 @@ function install() {
   setupGitAccount
   setupTmux
   setUpZsh
+  setupGitExtras
   setupNode
   setupVim
 
