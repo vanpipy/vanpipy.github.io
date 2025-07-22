@@ -3,6 +3,7 @@
 1. Install [Chocolatey](https://chocolatey.org/install)
     * Install python via (pyenv)[https://github.com/pyenv-win/pyenv-win]
         * `pip config set global.index-url https://mirrors.sustech.edu.cn/pypi/web/simple`
+        * Install (virtualenv)[https://virtualenv.pypa.io/en/latest/installation.html]
     * Install volta `choco install volta`
         * `volta install node`
     * Install Oh My Posh `choco install oh-my-posh`
