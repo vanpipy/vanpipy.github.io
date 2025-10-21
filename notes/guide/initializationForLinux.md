@@ -121,6 +121,8 @@ function setupPyEnv() {
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
   echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
   echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
+  # see https://github.com/astral-sh/uv
+  curl -fsSL https://astral.sh/uv/install.sh | sh
 }
 
 function install() {
