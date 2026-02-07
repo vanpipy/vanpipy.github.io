@@ -1,10 +1,13 @@
 # Initialization for Windows
 
 1. Install [Chocolatey](https://chocolatey.org/install)
-    * Install python via (pyenv)[https://github.com/pyenv-win/pyenv-win]
+    * Install python via (pyenv)[https://github.com/pyenv-win/pyenv-win] for local python version management
         * `pip config set global.index-url https://mirrors.sustech.edu.cn/pypi/web/simple`
-        * Install (virtualenv)[https://virtualenv.pypa.io/en/latest/installation.html]
-    * Install [uv](https://github.com/astral-sh/uv) `choo install uv`
+    * Install (uv)[https://github.com/astral-sh/uv] or `choco install uv`
+        * For package management
+        * It can replace the venv totally
+    * Install (MiniConda)[https://www.anaconda.com/download/success]
+        * For environment or package management
     * Install volta `choco install volta`
         * `volta install node`
     * Install Oh My Posh `choco install oh-my-posh`
