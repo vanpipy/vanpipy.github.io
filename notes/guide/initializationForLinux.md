@@ -99,10 +99,11 @@ function setupVim() {
 
   echo ">> Install neovim"
   mkdir -p ~/Download
-  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz -o ~/Download/nvim-linux.tar.gz
   cd ~/Download
+  wget https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-linux-x86_64.tar.gz
   sudo rm -rf /opt/nvim
-  sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+  tar -xzf nvim-linux-x86_64.tar.gz
+  sudo mv nvim-linux-x86_64 /opt/nvim
   cd -
   sudo rm /usr/bin/vi
   sudo ln -s /opt/nvim/bin/nvim /usr/local/bin/nvim
