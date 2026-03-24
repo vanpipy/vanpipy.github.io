@@ -1,116 +1,107 @@
-## Leroy Fan
-> Senior Software Engineer / Technical Lead (Web Applications). 3+ years of Node.js/React, 3 years of Java, 2 years of MySQL/MongoDB, 2 years leading teams of up to 10 engineers, 1 year of application architecture design, and 1 year of deep AI-copilot and LLM application delivery experience (LLMs, agents, workflow orchestration). Strong in driving delivery in complex, cross-functional environments, with hands-on practice in business platformization and microservice evolution. Long-time Vim and Linux user, passionate about improving engineering quality and certainty through tools and standards.
+# Leroy Fan
 
-- Education: Sichuan University Jinjiang College / Electronic Information Engineering, 2008–2012
-- Phone: +86 177 1152 7177
-- Location: Chengdu, Sichuan, China
-- Email: <vanpipy@gmail.com>
-- GitHub: [vanpipy](https://github.com/vanpipy)
-- Website: [vanpipy.github.io](https://vanpipy.github.io)
-- LinkedIn: [Leroy Fan](https://www.linkedin.com/in/leroy-fan-8666b0200)
+> Senior Software Engineer / Technical Lead | 8 years full-stack experience / 2 years technical leadership
+>
+> Drive architectural evolution through reversible technical decisions and build team capabilities with replicable development frameworks, delivering end-to-end solutions under ambiguous requirements. Grounded in deep frontend expertise with backend extension, I recently focused on LLM applications, delivering an intelligent NPC from 0 to 1.
+>
+> 📍 Chengdu | 📧 vanpipy@gmail.com | 📱 +86 177 1152 7177
+> 🔗 [Github](github.com/vanpipy) · [Blog](vanpipy.github.io) · [Linkedin](linkedin.com/in/leroy-fan-8666b0200)
 
 ## Core Competencies
 
-- Delivery: Partner with Product/PMO to refine requirements, plan milestones, and deliver compliant project artifacts and acceptance materials
-- LLM Applications: Prompt configuration and templating, agent setup, capability/workflow orchestration, and in-app/native integration of Q&A experiences
-- Architecture & Performance: Platformization and microservice evolution, service/module decomposition, API contract governance, performance and stability improvements with caching
-- Engineering & Quality: Framework/component library/tooling, AI-assisted dev workflows (code generation/review), cross-team verification with QA/Ops, release readiness and defect closure
+* **Back to Basics**: Rapidly validate value through reversible technical approaches (e.g., Feature Flag, anti-corruption layer design), turning ambiguous requirements into business outcomes
+* **Technical Decision Making**: Ensure traceable and reviewable choices with clear trade-off criteria (performance/scalability/cost) and fallback paths
+* **Architectural Evolution**: Ensure system observability and sustainability through fitness mechanisms and progressive refactoring principles
+* **Asset Accumulation**: Identify reuse opportunities through the "Rule of Three", combining effort assessment to transform experience into team-reusable capabilities
+* **Collaboration Driven**: Ensure information transparency and efficient flow in 10-person cross-functional teams through contract-first, requirement playback, and iteration retrospectives
+
+## Project Experience
+
+### Xunfeng Digital World Intelligent NPC - Xunfeng Technology
+
+* Context: Native game NPCs primarily used scripted interactions, struggling to cover diverse user queries and multi-turn conversations, with operations lacking configurable role dialogue capabilities
+* Goal: Add LLM-based intelligent Q&A capabilities to NPCs while maintaining core game flow, supporting prompt configuration and rapid agent creation to improve operational efficiency and interaction experience
+* Actions:
+    - Reversible Design: Adopted an anti-corruption layer architecture, encapsulating LLM capabilities as an independent service layer with feature toggle control. Retained original logic as fallback to ensure risk control and quick rollback
+    - Technical Decision: Chose "Prompt+RAG" over "fine-tuning", trade-off considerations: a. Maintenance cost (high vs affordable), b. Observability (prompts auditable and traceable), c. Operational self-service level (no additional assistance needed), decision rationale documented for traceability
+    - Asset Accumulation: Identified common modules like Prompt template management, dialogue context management, Token billing, extracted as team public capabilities following "Rule of Three", supporting subsequent similar requirement reuse
+* Results:
+    - Achieved NPC multi-turn intelligent Q&A, operations can quickly adjust role settings and response styles through prompt configuration
+    - Dialogue iteration cycle shortened from "2-week release" to "5-minute configuration deployment", debugging costs reduced by ~90%
+    - Accumulated LLM component library subsequently supported multiple product lines with similar requirements
+
+### Wuxia Trading Platform - Xunfeng Technology
+
+* Context: Online liquor trading in digital-physical integrated business, multiple business modules, long transaction chains, parallel multi-team development, high frontend-backend collaboration costs, long new module launch cycles
+* Goal: Build unified online trading platform, support core transaction flows, improve scalability and delivery efficiency
+* Actions:
+    - Architectural Evolution: Constrained performance boundaries with fitness mechanisms, defining core page LCP < 1.5s and regular page LCP < 3s as evolution baseline metrics to prevent system degradation from new features
+    - Collaboration Driven: Contract-first, promoted "interface design first" mechanism, completed interface design reviews before implementation, reducing interface change rate by 50% during integration phase
+    - Asset Accumulation: Accumulated contract tools and business component library, achieved automated interface alignment, transformed new module development from "repetitive implementation" to "component orchestration"
+* Results:
+    - Core page LCP stabilized within 1.2s
+    - New module launch cycle shortened by ~30% (3 weeks to 2 weeks)
+    - Transaction chain stably supported business growth, zero failures during major promotions
+
+### Jiaotou Bidding Platform - Xin Jiaotou Big Data
+
+* Context: Traditional bidding processes had many offline links, long cycles, high compliance and audit trail requirements, needing platform support with collaborative meeting capabilities
+* Goal: Achieve full online process for tender/bid/opening/evaluation, integrate online meeting room capabilities, improve transparency and delivery efficiency
+* Actions:
+    - Technical Decision: As Tech Lead, led architecture design and technology selection. For core online meeting capability, chose "integrate third-party SDK" over "in-house development", trade-off considerations: a. Delivery timeline (24 weeks vs 4 weeks), b. Compliance qualifications (information encryption), c. Maintenance cost (non-core functional capability not duplicated), decision rationale documented for subsequent review
+    - Architecture Design: Delivered technical solutions and detailed design documentation, defined bidder/tenderer/expert three-party permission models, unified process configuration and component library
+    - Collaboration Driven: Established "requirement playback" mechanism, after product side delivered PRD, development side briefly restated to identify ambiguities, reach consensus understanding, only proceeding to technical design phase after review approval
+* Results:
+    - Platform covered the full tender/bid/opening/evaluation process, supporting 20+ bidding projects online
+    - Significantly reduced offline operations and communication costs, milestones achieved as scheduled
+
+### Transaction Fulfillment Platform - KE Holdings
+
+* Context: Complex post-loan fulfillment processes, multiple nodes, frequent cross-system collaboration, with information fragmentation and manual circulation costs
+* Goal: Systematize and visualize post-loan processes, accumulate generic capabilities, improve risk control and operational efficiency
+* Actions:
+    - Architectural Evolution: Constrained refactoring boundaries with fitness mechanisms, defined "core chain response time<500ms" and "unit test coverage>80%" as evolution baselines, ensuring refactoring doesn't introduce regression issues
+    - Asset Accumulation: Identified common nodes in fulfillment processes (e.g., approval flows, form engines), extracted as reusable components following "Rule of Three", combined with toolchain and monitoring capabilities to improve issue localization efficiency
+    - Collaboration Driven: Promoted post-loan process modeling and cross-system interface alignment with documentation, reducing multi-party integration communication costs
+* Results:
+    - Achieved systematic control of post-loan key processes
+    - Basically eliminated duplicate data entry, manual circulation reduced by 30%
+    - Version defect rate decreased by 60% with governance
 
 ## Work Experience
 
-### Xunfeng Technology (Guizhou)
+### Xunfeng Technology (Guizhou) | Senior Software Engineer | 2023.11 - 2025.12
 
-Chengdu | Senior Software Engineer | 2023.11 – 2025.12
+* Responsible for trading platform full-chain construction and intelligent capability exploration, participated in core module architecture design and team collaboration mechanism improvement
+* Skills: LLM/Agent | React | Node.js | Java | MongoDB
 
-- Collaborated with Product/PM to clarify merchant and trading requirements, ran reviews, and delivered against milestones to ensure on-time releases.
-- Contributed to end-to-end trading platform delivery, owning front-end solution design and core module implementation, and building reusable business and UI capabilities.
-- Participated in technical reviews and performance tuning for core trading flows, partnering with back-end teams on service decomposition, API contract governance, and caching adoption.
-- Supported finance and data teams with solution design and delivery support, improving cross-team collaboration efficiency and traceability.
-- Advanced the foundational engineering stack: front-end framework upgrades, component library and toolchain iteration, standards and collaboration workflow improvements.
-- Drove intelligent capabilities exploration: delivered PoCs and solution patterns for AI/LLM use cases; applied workflow orchestration and agents to improve operations and delivery efficiency (e.g., intelligent NPC Q&A).
-- Tech stack: AI/LLM, Prompt Engineering, Agent, Workflow Orchestration, Java, Node.js, TypeScript/ES6, React, Vue, Redis
+### Xin Jiaotou (Chengdu) Big Data | Tech Lead | 2022.07 - 2023.08
 
-### Xin Jiaotou (Chengdu) Big Data
+* Led team to complete enterprise digital transformation SaaS platform delivery, architecture design, technical solution review, and development process optimization
+* Skills: Java | Spring Boot | Spring Cloud | Vue | Microservices Architecture
 
-Chengdu | Tech Lead | 2022.7 – 2023.8
+### KE Holdings | Senior Engineer | 2020.12 - 2022.05
 
-- Managed delivery complexity and led a small agile team through solution design, implementation, and release acceptance per iteration.
-- Delivered front-end solutions for a SaaS platform (resource optimization, unified entry integration, component governance) to improve maintainability and scalability.
-- Supported application foundation upgrades and evolved from Spring Boot to Spring Cloud with related platform refactoring.
-- Owned key module solutioning and detailed design documentation, and partnered with QA for integration verification and defect closure.
-- Partnered with Ops to improve CI/CD pipelines and release workflows, increasing release stability and regression efficiency.
-- Tech stack: Java, Spring Boot, Spring Cloud, JWT, SOLID, Vue, Vite
+* Participated in real estate financial transaction and post-loan fulfillment platform construction, responsible for micro-frontend architecture and public toolchain accumulation
+* Skills: React | Node.js | Webpack | Micro-frontend
 
-### KE Holdings
+### Active Network | Software Engineer | 2019.05 - 2020.08
 
-Chengdu | Senior Engineer | 2020.12 – 2022.5
+* Participated in marathon and campus event system development, responsible for key page implementation and agile practice implementation
+* Skills: Java | React | Backbone.js | Scrum
 
-- Delivered loan post-processing and fulfillment-related business features, and participated in core process analysis and systemization for stable production delivery.
-- Established micro-frontend practices and a business application development model to improve multi-team collaboration efficiency.
-- Supported cloud migration initiatives, covering app refactoring, vendor integration, and automated integration/deployment workflows.
-- Built shared dev tooling by integrating Webpack 5 and CommandJS, shaping an evolvable toolchain combining services, configuration, and telemetry.
-- Improved domain modeling and code quality practices, collaborating with QA/Ops on technical standards, delivery documentation, and release safeguards.
-- Tech stack: Node.js, React, Webpack, Micro Frontends, CommandJS
+### ShenMa Ride-hailing | Tech Lead | 2016.11 - 2019.03
 
-### Active Network
+* Led team to complete enterprise mobility business core feature iteration, promoted engineering construction and collaboration mechanism optimization
+* Skills: React | Vue | Weex | Scrum
 
-Chengdu | Software Engineer | 2019.5 – 2020.8
+### Dili R&D Center | Frontend Engineer | 2013.08 - 2016.09
 
-- Delivered systems for marathon and campus sports events, partnering with Product on requirement refinement and iterative delivery, ensuring stability during peak event periods.
-- Implemented key user flows and continuously improved UX and performance.
-- Contributed to agile practices, including iteration cadence, tracking, and defect closure.
-- Tech stack: Java, React, Backbone, jQuery, Scrum
+* Participated in fresh produce e-commerce platform business development and launch process construction
+* Skills: jQuery | Bootstrap | CSS3
 
-### ShenMa Ride-hailing
-
-Chengdu | Front-end Team Lead | 2016.11 – 2019.3
-
-- Led delivery for corporate mobility products, owning requirement analysis, solution reviews, implementation, and release safeguards.
-- Drove engineering standards, component reuse, and toolchain improvements to strengthen delivery quality in multi-developer collaboration.
-- Supported internal project management method build-out and recruitment process improvements.
-- Tech stack: React, Vue, Weex, Scrum
-
-### Dili R&D Center
-
-Chengdu | Front-end Engineer | 2013.8 – 2016.9
-
-- Built and iterated core features for a fresh produce e-commerce platform, delivering key pages and business flows.
-- Helped design and execute release/deployment processes to improve delivery stability.
-- Tech stack: jQuery, Bootstrap, CSS, HTML, Bash
-
-## Projects
-
-### Wuxia Trading Platform (Xunfeng Technology)
-
-- Situation: Complex end-to-end trading flows with many modules and strict UX/stability requirements in a digital-physical integrated business.
-- Goal: Build a unified online trading platform and improve extensibility and delivery efficiency.
-- Actions: Delivered from 0 to 1, including micro-frontend shell, core product detail and checkout flows, and shared component/design standards; aligned API contracts and integration delivery with back-end and QA teams; explored LLM/agent/workflow capabilities to improve parts of operations and delivery.
-- Results: Achieved LCP around 1.2s on core pages, reduced average time-to-ship for new modules by ~30%, and ensured stable growth of the trading link.
-- Timeline: ~6 months for the first wave of core modules and production launch.
-
-### Xunfeng Digital World Intelligent NPC (Xunfeng Technology)
-
-- Situation: NPC interactions were mainly scripted, with limited coverage of user questions and multi-turn conversations; operations lacked a configurable role dialog capability.
-- Goal: Add LLM-based intelligent Q&A for NPCs without major changes to the native game flow, enabling prompt configuration and rapid agent creation to improve operations efficiency and player experience.
-- Actions: Designed prompt templates and configuration standards for NPC roles; built agent creation and parameter management workflow; integrated the conversational capability into the native game program, supporting multi-turn context and baseline safety constraints; partnered with QA for verification and delivery.
-- Results: Enabled multi-turn intelligent Q&A for NPCs, allowed fast adjustment of persona and answer style via prompt configuration, reduced dialog iteration and integration costs, and improved maintainability.
-- Timeline: Delivered via iterative PoC → integration → verification → production rollout.
-
-### Jiaotou E-Procurement Platform (Xin Jiaotou Big Data)
-
-- Situation: Tendering and evaluation workflows were heavily offline with high compliance and auditability requirements.
-- Goal: Digitize the full tendering/bidding/opening/evaluation process and integrate online meeting capabilities to improve transparency and delivery efficiency.
-- Actions: Participated in overall architecture solutioning and key module delivery; produced solution and detailed design docs; refined interface and permission models; implemented reusable UI/process configurations; improved release and observability workflows with Ops.
-- Results: Covered major procurement workflows with stable releases; significantly reduced offline operations and communication cost; improved cross-team delivery efficiency.
-- Timeline: Continuous iteration and evolution based on changing business needs.
-
-### Transaction Fulfillment Platform (KE Holdings)
-
-- Situation: Post-loan fulfillment involved complex workflows and cross-system collaboration with fragmented information and manual circulation costs.
-- Goal: Systemize and visualize post-loan fulfillment processes, and standardize reusable capabilities to improve risk control and operations efficiency.
-- Actions: Participated in process analysis and modeling; delivered key nodes and complex forms/task flows; standardized reusable components and basic capabilities; improved toolchain and observability to boost release and troubleshooting efficiency.
-- Results: Reduced manual circulation and duplicate data entry, and continuously lowered defect rates through governance and iteration.
-- Timeline: Delivered iteratively with continuous enhancement and capability consolidation.
+## Education
+Sichuan University Jinjiang College | Electronic Information Engineering | Bachelor's Degree | *2008 - 2012*
 
 ## Acknowledgements
 Thank you for taking the time to review my resume. I look forward to the opportunity to work with you.
