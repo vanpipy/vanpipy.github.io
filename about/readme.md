@@ -4,8 +4,8 @@
 >
 > 以"可逆的技术决策"驱动架构演进，以"可复制的开发框架"沉淀团队能力，在模糊需求中完成端到端交付。以前端深度为底座、后端延伸为支撑，近期聚焦LLM应用，完成智能NPC从0到1落地。
 >
-> 📍 成都 | 📧 vanpipy@gmail.com | 📱 17711527177
-> 🔗 [Github](github.com/vanpipy) · [Blog](vanpipy.github.io) · [Linkedin](linkedin.com/in/leroy-fan-8666b0200)
+> 成都 | vanpipy@gmail.com | 177 1152 7177</br>
+> [Github](github.com/vanpipy) | [Blog](vanpipy.github.io) | [Linkedin](linkedin.com/in/leroy-fan-8666b0200)
 
 ## 核心能力
 
