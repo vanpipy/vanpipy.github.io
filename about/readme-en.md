@@ -17,6 +17,16 @@
 
 ## Project Experience
 
+### Busyming Mobile-POS - Busyming Group
+
+* Context: Peak-hour checkout congestion at retail stores caused long queues, hurting both the customer experience and store checkout efficiency
+* Goal: Adopt low-cost PDA devices as checkout terminals, implement a standard-SKU diversion strategy, and improve both customer satisfaction and checkout efficiency
+* Actions:
+    - Collaboration Driven: Adopted a Spec-Driven Development (SDD) strategy, using the requirements wiki as the business carrier, combined with intelligent tools to build a multi-party collaboration knowledge base, reducing information loss and communication costs and improving human/human, human/agent, and agent/agent collaboration efficiency
+    - Asset Accumulation: Business knowledge accumulated into public assets, providing consensus anchors for business evolution and forming team business capabilities
+* Results:
+    - Requirements management efficiency improved by 30%, delivery efficiency improved by 50%, checkout efficiency improved by 15%
+
 ### Xunfeng Digital World Intelligent NPC - Xunfeng Technology
 
 * Context: Native game NPCs primarily used scripted interactions, struggling to cover diverse user queries and multi-turn conversations, with operations lacking configurable role dialogue capabilities
@@ -69,6 +79,11 @@
     - Version defect rate decreased by 60% with governance
 
 ## Work Experience
+
+### Busyming Group | Senior Full-Stack Engineer | 2026.04 - Present
+
+* Responsible for the mobile checkout business and system build-out
+* Skills: Java | Kotlin | React Native
 
 ### Xunfeng Technology (Guizhou) | Senior Software Engineer | 2023.11 - 2025.12
 
