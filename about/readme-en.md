@@ -19,13 +19,16 @@
 
 ### Busyming Mobile-POS - Busyming Group
 
-* Context: Peak-hour checkout congestion at retail stores caused long queues, hurting both the customer experience and store checkout efficiency
-* Goal: Adopt low-cost PDA devices as checkout terminals, implement a standard-SKU diversion strategy, and improve both customer satisfaction and checkout efficiency
+* Context: Peak-hour checkout congestion at retail stores caused long queues, constraining both the customer experience and store checkout efficiency
+* Goal: Adopt low-cost PDA devices as the standard-SKU checkout terminals, implement a standard-SKU diversion strategy, and improve both customer satisfaction and store checkout efficiency
 * Actions:
+    - Technical Decision: Terminal selection and diversion boundaries for serving standard SKUs on low-cost PDAs, trade-off considerations【TODO: comparison against dedicated POS terminals and all-category checkout in hardware cost, addressable SKU scope, and cashier onboarding cost】, decision rationale documented for subsequent review
     - Collaboration Driven: Adopted a Spec-Driven Development (SDD) strategy, using the requirements wiki as the business carrier, combined with intelligent tools to build a multi-party collaboration knowledge base, reducing information loss and communication costs and improving human/human, human/agent, and agent/agent collaboration efficiency
     - Asset Accumulation: Business knowledge accumulated into public assets, providing consensus anchors for business evolution and forming team business capabilities
 * Results:
-    - Requirements management efficiency improved by 30%, delivery efficiency improved by 50%, checkout efficiency improved by 15%
+    - Requirements management efficiency improved by 30%
+    - Delivery efficiency improved by 50%
+    - Checkout efficiency improved by 15%
 
 ### Xunfeng Digital World Intelligent NPC - Xunfeng Technology
 
@@ -82,7 +85,7 @@
 
 ### Busyming Group | Senior Full-Stack Engineer | 2026.04 - Present
 
-* Responsible for the mobile checkout business and system build-out
+* Responsible for the mobile checkout business and system build-out, leading the standard-SKU diversion rollout and driving the SDD requirements wiki and intelligent-tool collaboration mechanism
 * Skills: Java | Kotlin | React Native
 
 ### Xunfeng Technology (Guizhou) | Senior Software Engineer | 2023.11 - 2025.12
