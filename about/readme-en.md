@@ -2,7 +2,7 @@
 
 > Senior Software Engineer / Technical Lead | 8 years full-stack experience / 2 years technical leadership
 >
-> Drive architectural evolution through reversible technical decisions and build team capabilities with replicable development frameworks, delivering end-to-end solutions under ambiguous requirements. Grounded in deep frontend expertise with backend extension, I recently focused on LLM applications, delivering an intelligent NPC from 0 to 1.
+> Drive architectural evolution through reversible technical decisions and build team capabilities with replicable development frameworks, delivering end-to-end solutions under ambiguous requirements. Recently focused on LLM applications, completing projects such as ai-specs and the intelligent NPC.
 >
 > Chengdu | vanpipy@gmail.com | +86 177 1152 7177</br>
 > [Github](github.com/vanpipy) | [Blog](vanpipy.github.io) | [Linkedin](linkedin.com/in/leroy-fan-8666b0200)
